@@ -22,7 +22,7 @@ public class Role implements Serializable{
 
 
 	//id INT NOT NULL AUTO_INCREMENT,
-	@Id
+	@Id //PRIMARY KEY (id)
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
