@@ -63,11 +63,10 @@ public class CasoController {
 			return new ResponseEntity(
 					casoService.save(casoDTO),
 					HttpStatus.CREATED
-					);
+			);
 		} catch (RestException e) {
 			log.error("Error al guardar", e);
 			return null;
 		}
 	}
 }
-
