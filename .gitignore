@@ -32,3 +32,4 @@ build/
 ### VS Code ###
 .vscode/
 # back-end-helpmeiud-lagj
+/src/main/resources/application.properties
